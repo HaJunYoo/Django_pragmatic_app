@@ -1,0 +1,15 @@
+.pragmatic_logo{
+    font-family: 'Lobster', cursive;
+}
+
+.pragmatic_footer_button {
+    font-size: .6rem;
+}
+
+.pragmatic_footer{
+    text-align: center; margin-top: 2rem;
+}
+.pargmatic_header{
+    text-align: center; margin: 2rem 0;
+/*{#   2rem:상하 0:좌우  #}*/
+}
