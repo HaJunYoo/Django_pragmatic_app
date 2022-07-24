@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accountapp',
+    'profileapp',
     'bootstrap4',
     'debug_toolbar',
 ]
@@ -154,3 +155,7 @@ from django.urls import reverse, reverse_lazy
 
 LOGIN_REDIRECT_URL = reverse_lazy('accountapp:hello_world')
 LOGOUT_REDIRECT_URL = reverse_lazy('accountapp:login')
+
+MEDIA_URL = '/media/'
+# media 라는 root에 모든 meaia 파일을 모으겠다.
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
