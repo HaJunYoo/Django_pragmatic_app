@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accountapp',
     'profileapp',
+    'articleapp',
+
     'bootstrap4',
     'debug_toolbar',
 ]
@@ -138,8 +140,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# staticfiles 라는 root에 모든 static 파일을 모으겠다.
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+## staticfiles 라는 root에 모든 static 파일을 모으겠다.
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
